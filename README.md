@@ -1,4 +1,4 @@
-- SkriptCommand
+SkriptCommand
 Minecraft Paper ve Folia sunucuları için geliştirilmiş skriptin Komut oluşturma Kısmını Eklentiye Çeviren bir plugindir. 
 Bu eklenti oyuncular ve için komut oluşturma komut yönlendirme ve komut Türkçeleştirme işlevlerine odaklanır
 Özellikle Skript Kullanmak İstemeyenler için küçük bi alternatif sunar
