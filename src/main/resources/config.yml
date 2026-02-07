@@ -1,0 +1,42 @@
+# SkriptCommand Eklentisi orjinal config dosyası.
+# bu eklenti skript'in komut oluşturma kullanımını azaltmak ve lagı engellemek için yapılmıştır
+# tamamen async bukkit scheduler ile kodlanmıştır herhangibi bir performans düşüşü yapmaz.
+
+# --------------------------------
+# - author: CanXD  
+# - Version: 1.0.4
+# - Config Version: 1.3
+# ---------------------------------
+
+messages-tr:
+  prefix: "&8[&aSkriptCommand&8] &f"
+  unknown-arg: "&4Bilinmeyen argüman kullandınız"
+  reload: "Config & komutlar başarıyla yeniden yüklendi"
+
+# ---
+# - komut oluşturma ve kısayol atama kısımı.
+# - Bu alanda tanımlanan komutlar oyuncu tarafından yazıldığında
+# - otomatik olarak belirtilen trigeger komutunu çalıştırır örnek /sunucumarketi yazıldığında -> /market komutunu açar
+# ---
+commands-tr:
+
+  sunucumarketi:
+    trigger:
+      execute player command "market"
+
+  ihale:
+    trigger:
+      execute player command "ah"
+
+# ---
+# - Eklenti komutlarını farklı dillere çevirmek için kullanabilirsiniz
+# - Örnek ingilizce 'trade' komutununuz var bunu türkçe 'takas' yapabilirsiniz
+# - Tab-complete desteği sadece command-plate'da vardır commands_tr sadece komut yönlendirme
+# ---
+command-plate:
+
+  takas:
+    oldcommand: trade
+
+  kasaba:
+    oldcommand: town

@@ -1,0 +1,14 @@
+name: SkriptCommand
+version: '${version}'
+main: com.skriptcommand.SkriptCommand
+api-version: 1.21
+authors: [ CanXD ]
+prefix: SkriptCommand
+
+commands:
+  skriptcommand:
+    description: reload atma komutu.
+    usage: /skriptcommand reload
+    aliases: [skcmd]
+
+folia-supported: true
