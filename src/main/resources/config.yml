@@ -1,5 +1,5 @@
 # SkriptCommand Eklentisi orjinal config dosyası.
-# bu eklenti skript'in komut oluşturma kullanımını azaltmak ve lagı engellemek için yapılmıştır
+# bu eklenti skript'in komut oluşturma kullanımını azaltmak ve lagı azaltmak için yapılmıştır
 # tamamen async bukkit scheduler ile kodlanmıştır herhangibi bir performans düşüşü yapmaz.
 
 # --------------------------------
