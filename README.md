@@ -11,7 +11,7 @@ Skript’in **komut oluşturma** ve **komut yönlendirme** sistemini **bağıms�
 
 - ✅ **Folia Desteği**
 - ✅ **Skript’in Komut Oluşturma Sistemi**
-- ✅ **Komut Yönlendirme (Command Redirect)**
+- ✅ **Yeni Komutu Eski Komuta Yönlendirme (Command Redirect)**
 - ✅ **İngilizce komutları Tab-Complete ile Türkçeleştirme**
 - ✅ **Bukkit Scheduler ile yüksek performans**
 - ✅ **Kullanıcı dostu ve şeffaf `config.yml`**
